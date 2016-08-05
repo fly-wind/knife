@@ -1,0 +1,42 @@
+
+/*主要内容*/
+/*第一部分*/
+.content-one{background: url("../images/block1.jpg") no-repeat; text-align: center; background-size: 100% auto; height: 600px; position: relative;}
+.content-one .shadow1,.content-one .shadow2{left: 0; height: 600px; width: 900px; position: absolute; }
+.content-one .shadow1{background: url("../images/science_bg1.png") no-repeat bottom;}
+.content-one .shadow2{background: url("../images/science_bg2.png") no-repeat bottom; }
+.content-one .shadow1 .shadow2 img { width: 400px; position: absolute; top: 50px; left: 20%;}
+.instruction{position: absolute; right: 15%; top:150px; text-align: left; line-height: 3.5rem;}
+.instruction h2,.instruction span{ font-size: 50px; font-size: 4rem;}
+.instruction span{color: #ad8e4d; display: block; text-align: center; }
+.instruction p,.content-two .content-two-bottom p{font-size:22px; font-size: 1.5rem;}
+
+/*第二部分*/
+.content-two{background: url("../images/block2.jpg") no-repeat; height: 600px; background-size: 100% auto; position: relative;}
+.content-two-left,.content-two-top{ position: absolute; width: 50%; background: url("../images/science_bg2.png") no-repeat bottom; background-size: 98%;}
+
+.content-two-left{ height: 600px; left: 0; border-top: 5px dashed black; overflow: hidden;}
+.content-two-left img{width: 200px; position: absolute; top: 50px; left: 30%;}
+
+.content-two-top{ position: absolute; height: 400px; right: 0;}
+.content-two-top img{width: 230px; position: absolute; top: -50px; left: 22%;}
+
+.content-two-bottom{ position: absolute; width: 50%; height: 200px; right: 0; border-top: 5px dashed black; padding-top: 10px; bottom: 0; text-align: left;line-height: 3rem;}
+.content-two-bottom h2{font-size: 35px; font-size: 2.5rem;}
+.content-two-bottom span{color: #ad8e4d;}
+
+
+/*第三部分*/
+.content-three-title{font-size: 40px; font-size: 3rem; padding: 10px; font-weight: bold; background: #ccc;}
+.content-three{ overflow: hidden;}
+.content-three ul li{float: left; padding: 0 20px; width: 22%; }
+.content-three ul li img{ width: 100%;}
+
+/*底部*/
+.bottom{background: url("../images/bottom_bg.jpg") no-repeat; background-size: 100% 100%; overflow: hidden;}
+.bottom div{ position: relative; overflow: hidden; padding: 20px;}
+.bottom div ul{ overflow: hidden; margin: 10px 10%;}
+.bottom div ul li{float: left; padding: 0 30px; }
+.bottom ul li a{color: #b7b5b1;}
+
+.bottom div .bottom-info li{ border-right: 2px solid #b7b5b1;}

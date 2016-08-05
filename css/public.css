@@ -1,0 +1,25 @@
+*{ margin:0; padding:0; }
+/*body, h1, h2, h3, h4, h5, h6, hr, p, div, span, ul, li, img, input, select{ margin:0; padding:0;}*/
+body, html { font-family:"Microsoft YaHei"; font-size:14px;}
+a{ text-decoration:none; }
+a:hover{ text-decoration:underline; }
+ul li{ list-style: none;}
+clearfix:after{ content:""; display:block;}
+clearfix{ display:inline-table;}
+
+.header{ background: url("../images/top_bg.jpg") no-repeat; height: 90px; width: 100%; position: relative; 
+background-size:cover;
+-ms-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/top_bg.jpg',sizingMethod='scale'); 
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/top_bg.jpg',sizingMethod='scale'); }
+/*.header h1{ line-height: 90px; color: #ad8e4d; padding: 15px 0 0 6%}*/
+.header h1{color: #AD8E4D;
+position: absolute;
+bottom: 10px;
+left: 6%;}
+/*标题*/
+.main-title{padding: 10px 5%; font-size: 22px; font-size: 1.5rem; overflow: hidden;}
+.main-title ul li{float: left; padding: 0 20px; border-right: 2px solid #ccc;}
+.second-title-last { border-style: none !important;}
+.title-left{float: left;}
+.title-right{float: right; padding-right: 5%;}
+
